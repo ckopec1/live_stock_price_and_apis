@@ -1,5 +1,6 @@
 # we import the Twilio client from the dependency we just installed
 from twilio.rest import Client
+# needs command "pip install yahoo-fin"
 from yahoo_fin.stock_info import *
 from datetime import datetime
 
